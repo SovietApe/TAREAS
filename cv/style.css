@@ -1,0 +1,48 @@
+body { background-color: #FFFFFF
+    ; }
+
+header{
+    box-shadow: 0 0 3px #888;
+    background-color: #FFFFFF;}
+
+p{
+    color: black;
+    font-family: 'Edu TAS Beginner', cursive;}
+
+#name{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h2{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+
+ 
+}
+
+li{
+    color: black;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+footer{
+    
+    background: linear-gradient(to bottom, rgba(63,76,107,1) 0%,rgba(63,76,107,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */;}
+
+#img{
+    box-shadow: 0 0 5px #888;
+    border-radius: 10px;
+}
+p{
+    column-count: 2;
+    column-gap: 20px;
+}
+a{
+    color: pink;
+}
+h4{
+    font-family: 'Roboto', sans-serif;
+}

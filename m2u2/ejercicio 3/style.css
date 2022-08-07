@@ -1,0 +1,33 @@
+.contenedor{
+    justify-content: space-between;
+    border: 2px solid black;
+    display: flex;
+}
+
+#caja1{
+    display: table;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+#caja2{
+    display: table;
+    background-color:blue;
+    width: 200px;
+    height: 200px;
+}
+
+#caja3{
+    display: table;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+
+.num{
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
