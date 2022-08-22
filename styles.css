@@ -1,0 +1,169 @@
+*{margin: 0; text-decoration: none;}
+
+body{
+    background-image: url(img/Sofovial_background.JPG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*EMPIEZA HEADER*/
+header{
+    border-top: 2px solid #c24c28;
+    min-height: 70px;
+    width: 100%;
+    display: flex;
+    background: whitesmoke;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu a{ 
+ color: black;
+ text-decoration: none;
+ font-weight: 600;
+ font-family: Montserrat;
+ padding-right: 10px;
+}
+
+.menu a:hover{
+    color: #c24c28;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo-img{
+    height: 90px;
+    padding-left: 20%;
+    margin: 6%;
+}
+
+/*TERMINA HEADER*/
+
+
+
+
+#vacio{
+    width: 100%;
+    height: 600px;
+}
+
+.espacio{
+    border-top: 3px solid #c24c28;
+    width: 100%;
+    height: 750px;
+    background-color: white;
+}
+
+.container{
+    background-color: whitesmoke;
+    height: auto;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+#titulo figcaption{
+    font-size: 40%;
+}
+
+.img_hb{
+    width: 100%;
+    border-bottom: 3px solid #c24c28;
+}
+
+#titulo{
+    padding-top: 3%;
+    font-family: Montserrat;
+    font-size: 200%;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
+}
+.cuadro{
+    text-align: center;
+    border: 5px solid #c24c28;
+    border-radius: 5px;
+    max-width: 70%;
+    height: 100%;
+    padding: 13px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+.cuadro img{
+    width: auto;
+    max-width: 80%;
+    border-radius: 10%;
+}
+
+.cuadro p{
+    padding-top: 1%;
+    font-size: 80%;
+    margin: 0;
+    font-weight: normal;
+    color: black;
+}
+
+
+/*media code*/
+@media (max-width: 1380px){
+    #vacio{
+        height: 400px;
+    }
+}
+
+@media (max-width: 1080px){
+    
+    header{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .menu{
+    }
+
+    .menu a{
+        font-size: 60%;
+
+    }
+
+    .logo-img{
+        padding-left: 0%;
+    }
+
+    body{
+        background-image: none;
+        background-color: #c24c28;
+    }
+
+    #vacio{
+        width: 0px;
+        height: 0px;
+    }
+
+    #titulo{
+        padding-top: 10%;
+    }
+
+    .cuadro img{
+        max-width: 100%;
+    }
+
+    .cuadro{
+        max-width: 90%;
+    }
+
+}
+/*termina media code*/
+
+
+
+
+
+
+
