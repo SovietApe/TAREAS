@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="ejercicio1-styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor">
+        <button class="color-button" id="verde"> <p>verde</p> </button>
+        <button class="color-button" id="rojo">  <p>rojo</p>  </button>
+        <button class="color-button" id="azul">  <p>azul</p>  </button>
+    </div>
+    <script>
+        const rojo = document.getElementById('rojo')
+        const verde = document.getElementById('verde')
+        const azul = document.getElementById('azul')
+        const body = document.querySelector('body')
+        verde.addEventListener('click' , function(){ 
+            body.style.backgroundColor = '#00ff00'
+        });
+        rojo.addEventListener('click' , function(){
+            body.style.backgroundColor = '#ff0000'
+        })
+        azul.addEventListener('click' , function(){
+            body.style.backgroundColor = '#0000ff'
+        })
+
+    </script>
+</body>
+</html>
