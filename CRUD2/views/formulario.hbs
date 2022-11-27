@@ -1,0 +1,23 @@
+<head>
+    <link rel='stylesheet' href='/stylesheets/form.css' />
+</head>
+<div class="container">
+    <h3>Formulario para formar parte de lista de difusion</h3>
+    <form class="form-inline" action="/formulario/enviar" method="post">
+  <label class="sr-only" for="inlineFormInputName2">Name</label>
+  <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Nombre" name="nombre">
+  <label class="sr-only" for="inlineFormInputName2">Apellido</label>
+  <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Apellido" name="apellido">
+  <label class="sr-only" for="inlineFormInputGroupUsername2">Email</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <div class="input-group-prepend">
+      <div class="input-group-text">@</div>
+    </div>
+    <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Email" name="email">
+  </div>
+  <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+</form>
+{{#if error}}
+    <h5 style="color: red; font-size: medium">{{message}}</h5>
+{{/if}}
+</div>
